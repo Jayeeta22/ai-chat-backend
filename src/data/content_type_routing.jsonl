@@ -1,0 +1,22 @@
+{"prompt": "Explain how async/await works in JavaScript", "contentType": "code", "reason": "Code concept explanation request"}
+{"prompt": "What is a closure and how does it work?", "contentType": "code", "reason": "Programming concept question"}
+{"prompt": "Review this React component and suggest improvements", "contentType": "code", "reason": "Code review request"}
+{"prompt": "How do I connect MongoDB with Express?", "contentType": "code", "reason": "MERN stack technical question"}
+{"prompt": "Debug this function, it's returning undefined", "contentType": "code", "reason": "Debugging request"}
+{"prompt": "Write a middleware for JWT authentication in Node.js", "contentType": "code", "reason": "Code generation request"}
+{"prompt": "What is the difference between SQL and NoSQL?", "contentType": "code", "reason": "Technical database comparison"}
+{"prompt": "Explain the difference between var, let, and const", "contentType": "code", "reason": "JavaScript syntax explanation"}
+{"prompt": "Tell me about yourself as a candidate", "contentType": "interview", "reason": "Classic interview opener"}
+{"prompt": "What is your greatest weakness?", "contentType": "interview", "reason": "Behavioral interview question"}
+{"prompt": "Where do you see yourself in 5 years?", "contentType": "interview", "reason": "Career trajectory interview question"}
+{"prompt": "Why should we hire you over other candidates?", "contentType": "interview", "reason": "Competitive interview question"}
+{"prompt": "Describe a time you resolved a conflict in a team", "contentType": "interview", "reason": "Situational/behavioral interview question"}
+{"prompt": "What motivates you in your work?", "contentType": "interview", "reason": "Motivational interview question"}
+{"prompt": "How do you handle tight deadlines and pressure?", "contentType": "interview", "reason": "Stress handling interview question"}
+{"prompt": "What are your salary expectations?", "contentType": "interview", "reason": "Compensation interview question"}
+{"prompt": "What is the weather like today?", "contentType": "general", "reason": "Non-technical general question"}
+{"prompt": "Can you recommend a good book to read?", "contentType": "general", "reason": "General recommendation request"}
+{"prompt": "Summarize the history of the internet", "contentType": "general", "reason": "General knowledge question"}
+{"prompt": "Help me write an email to my manager", "contentType": "general", "reason": "General writing assistance"}
+{"prompt": "What are some tips for better productivity?", "contentType": "general", "reason": "General lifestyle advice"}
+{"prompt": "Translate this sentence to Spanish", "contentType": "general", "reason": "Language/translation request"}

@@ -10,7 +10,7 @@ export const generateChat = async (messages) => {
       model: process.env.AZURE_DEPLOYMENT,
     });
 
-    return [response.choices[0].message.content,response.choices[0].message.content];
+    return response.choices[0].message.content;
   } catch (error) {
     console.error("AI Error:", error);
     throw new Error("AI generation failed");
