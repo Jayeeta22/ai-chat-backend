@@ -65,3 +65,5 @@ export const chatHandler = async (req, res, next) => {
     next(err);
   }
 };
+
+export { detectContentType,systemPrompts };

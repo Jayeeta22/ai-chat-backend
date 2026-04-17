@@ -1,5 +1,5 @@
 import client from "../../config/azureClient.js";
-
+console.log("AZURE_DEPLOYMENT", process.env.AZURE_DEPLOYMENT);
 export const generateChat = async (messages) => {
   try {
     const response = await client.chat.completions.create({
