@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:5000
+
+# ### Health Check
+# GET {{baseUrl}}/api/chat/get
+
+# ### Chat API
+# POST {{baseUrl}}/api/chat
+# Content-Type: application/json
+
+# {
+#   "message": "Explain closures in JavaScript"
+# }
+
+### Vision API (Image URL)
+POST {{baseUrl}}/api/vision/analyze-image
+Content-Type: application/json
+
+{
+  "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
+}
