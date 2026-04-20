@@ -1,14 +1,18 @@
 {
   "dependencies": {
     "@azure-rest/ai-content-safety": "^1.0.1",
+    "@azure-rest/ai-translation-text": "^1.0.1",
     "@azure-rest/ai-vision-face": "^1.0.0-beta.3",
+    "@azure/ai-language-text": "^1.1.0",
     "@azure/core-auth": "^1.10.1",
     "@azure/identity": "^4.13.1",
     "axios": "^1.15.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "install": "^0.13.0",
     "nodemon": "^3.1.14",
+    "npm": "^11.12.1",
     "openai": "^6.34.0"
   },
   "name": "ai-chat-backend",

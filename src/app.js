@@ -5,6 +5,8 @@ import safeChatRoutes from "./modules/SafeChat/safeChat.routes.js";
 import VisionRouts from "./modules/Vision/vision.routes.js"
 import faceRoutes from "./modules/Face/face.routes.js";
 import customVisionRoutes from "./modules/CustomVision/customVision.routes.js";
+import languageRoutes from "./modules/Language/language.route.js"
+import TranslateRoutes from "./modules/Translator/translator.route.js"
 
 const app = express();
 
@@ -18,5 +20,7 @@ app.use("/api", safeChatRoutes);
 app.use("/api", VisionRouts)
 app.use("/api", faceRoutes);
 app.use("/api", customVisionRoutes);
+app.use("/api", languageRoutes);
+app.use("/api", TranslateRoutes);
 
 export default app;
