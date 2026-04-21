@@ -7,6 +7,7 @@ import faceRoutes from "./modules/Face/face.routes.js";
 import customVisionRoutes from "./modules/CustomVision/customVision.routes.js";
 import languageRoutes from "./modules/Language/language.route.js"
 import TranslateRoutes from "./modules/Translator/translator.route.js"
+import SpeechRoutes from "./modules/Speech/speech.route.js"
 
 const app = express();
 
@@ -22,5 +23,6 @@ app.use("/api", faceRoutes);
 app.use("/api", customVisionRoutes);
 app.use("/api", languageRoutes);
 app.use("/api", TranslateRoutes);
+app.use("/api", SpeechRoutes);
 
 export default app;
