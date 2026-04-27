@@ -9,6 +9,7 @@ import languageRoutes from "./modules/Language/language.route.js"
 import TranslateRoutes from "./modules/Translator/translator.route.js"
 import SpeechRoutes from "./modules/Speech/speech.route.js"
 import conversationRoute from "./modules/Conversation/conversation.route.js";
+import decumentIntelligenceRoute from "./modules/DocumentIntelligence/documentIntelligence.route.js";
 
 const app = express();
 
@@ -26,5 +27,6 @@ app.use("/api", languageRoutes);
 app.use("/api", TranslateRoutes);
 app.use("/api", SpeechRoutes);
 app.use("/api", conversationRoute);
+app.use("/api", decumentIntelligenceRoute);
 
 export default app;
